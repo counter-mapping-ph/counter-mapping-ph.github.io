@@ -1,0 +1,46 @@
+# site settings
+title: Counter-Mapping Philippines
+subtitle:
+description: Rethink the Power of Maps
+email: countermapping.phl@gmail.com
+baseurl: ""
+logo: /media/site/img/counter-mapping-ph-bg.png
+favicon: /media/site/img/counter-mapping-ph-favicon.png
+
+# author
+author:
+    name: "Counter-Mapping Philippines"
+    avatar: "/media/site/img/counter-mapping-ph-square.png"
+    description: ""
+    facebook: ""
+    twitter: ""
+    github: ""
+    linkedin: ""
+
+# repo
+repository: counter-mapping-ph/counter-mapping-ph.github.io
+site.github: [metadata]
+
+# paginator
+paginate: 10
+paginate_path: "blog/page:num/"
+
+# build settings
+markdown: kramdown
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+
+# exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# plugins
+plugins:
+  - github-pages
+  - jekyll-paginate
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
