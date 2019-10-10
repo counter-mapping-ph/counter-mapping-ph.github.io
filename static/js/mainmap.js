@@ -1,5 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiY291bnRlci1tYXBwaW5nLXBoIiwiYSI6ImNrMGpzOTl6ZDBlNmkzanNid3kzeWVlMTQifQ.7vpFDBJqj7aAPoFoCuemSQ';
-
+mapboxgl.accessToken = 'pk.eyJ1IjoiY291bnRlci1tYXBwaW5nLXBoIiwiYSI6ImNrMWl4czZ2dzEwcTEzbnA2ZHFheXJkMTIifQ.2H4nyU-vt_np5OLeeFWqrw';
 $(document).ready(function(){
 
     var map = new mapboxgl.Map({
