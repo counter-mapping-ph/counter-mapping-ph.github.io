@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "counter-mapping-ph",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Counter-mapping New Clark City", "by": "Counter-mapping PH Team", "link": "https:\/\/https:\/\/counter-mapping-ph.github.io\/efforts\/counter-mapping-new-clark-city\/" }, "geometry": { "type": "Point", "coordinates": [ 120.520585978003709, 15.338754878684787 ] } }
+]
+}

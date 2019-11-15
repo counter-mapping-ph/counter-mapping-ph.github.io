@@ -13,4 +13,22 @@ $(document).ready(function(){
 
     map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
+    map.on('load', function(){
+        map.addSource(
+           'cmph', {
+               type: 'geojson',
+               data: 'static/data/counter-mapping-ph.geojson',
+        });
+
+        map.addLayer({
+          'id': 'efforts',
+          'type': 'symbol',
+          'source': 'cmph',
+          'layout': {
+              'visibility': 'visible',
+              "text-field": ["get", "name"]
+          },
+      });
+    })
+
 });
